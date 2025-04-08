@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@source "../node_modules/flowbite";
+@plugin "flowbite/plugin";
+@custom-variant dark (&:where(.dark, .dark *));
+
+body{
+    background: linear-gradient(135deg, #E0F2FE, #F9F1E7);
+
+}
+/* #nav{
+    color:beige;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#nav:hover{
+    color: blue;
+} 
+
+
+
+ */
+
+
+
+ .px-6:hover{
+    color: #0E9F6E;
+}
+ #nav:hover{
+    color: #0E9F6E;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+} 
+
+
+
+
+
+/* In your CSS file (e.g., App.css or index.css) */
+
+
+#NotFound{
+    color :red;
+}
+
+
+#login-form,#add_user{
+    border-radius: 10px;
+    margin: 50px;
+}
+
+/* #logout{
+    color:#fff;
+} */
+#logout:hover{
+    color:#fff;
+    background-color:red;
+    cursor:pointer;
+}  
+
+/* #login,#add_users{
+    color:#fff;
+} */
+#login:hover ,#add_users:hover{
+    color:#fff;
+    background-color:green;
+    cursor:pointer;
+}
+
+
+
+#not_admin{
+    margin: 30px;
+    text-align: center;
+}
+
+
